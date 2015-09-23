@@ -1,16 +1,18 @@
 # textareaAutoResize
 Automatically resizes a textarea to content
 
-## Examples:
+## Use:
+
+html:
+```html
+<script src='jquery.textareaAutoResize.min.js'></script>
+<textarea rows="2"></textarea>
+```
 style:
 ```css
 textarea {
   max-height: 70px;
 }
-```
-html:
-```html
-<textarea rows="2"></textarea>
 ```
 javascript:
 ```js
